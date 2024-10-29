@@ -1,0 +1,752 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(214, 212, 209);
+
+}
+/* navigation paert css start */
+.clear{
+    clear: both;
+}
+
+.navigation{
+    height: 50px;
+    background-color: rgba(216, 214, 210, 0.99);
+}
+
+.logo{
+    padding-top: 12px;
+}
+
+.nav_bar{
+  text-align: end;
+}
+
+.nav_bar ul{
+   display: inline flex;
+ 
+}
+
+.nav_bar ul li{  
+    padding: 12px 18px;
+    font-size: 19px;
+    position: relative;
+}
+
+.nav_bar ul li a{
+    color: rgb(70, 76, 78);
+    font-weight: 200; 
+}
+
+.nav_bar ul li a:hover{
+     color: rgb(121, 60, 60);
+}
+
+.dropdown{
+    display: none;
+}
+
+.nav_bar ul li:hover .dropdown{
+    display: block;
+}
+
+.nav_bar ul li:hover .dropdown ul{
+    display: block;
+    width: 220px;
+    background-color: rgba(216, 214, 210, 0.99);
+    box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    left: -10px;
+    z-index: 1; 
+}
+
+.nav_bar ul li:hover .dropdown ul li{
+    text-align: left;
+    padding-top: 40px;
+}
+
+/* navigation part css end */
+
+/* banner part css start */
+.banner{
+    background-image: url(../image/Hero-bg.jpg);
+    height: 520px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner_contain {
+    padding-top: 120px;
+    padding-left: 40px;
+}
+
+.banner_contain h1{
+    font-size: 12rem;
+    color:rgba(216, 214, 210, 0.99);
+    font-weight: 200;
+    float: left;
+}
+
+.banner_contain p{
+    padding-top: 100px;
+    color: rgba(216, 214, 210, 0.99);
+    font-size: 40px;
+    font-weight: 200;
+    float: left;
+}
+/* banner part css end */
+
+/* business part in css start */
+.back_photo{
+    background-image: url(../image/automotive-bg-min-1.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.back_contain{
+ padding-top: 50px;
+ padding-right: 880px;  
+}
+
+.back_contain h2{
+    background-color: rgb(121, 60, 60);
+    color: rgba(216, 214, 210, 0.99);
+    padding: 3px 80px;
+    font-size: 1.5rem;
+    
+}
+
+.back_photo .layer{
+    width: 49%; 
+    height: 300px;
+    background-color: rgba(219, 217, 214, 0.88);
+    float: right;
+}
+
+.back_photo .layer h3{
+    padding-top: 20px;
+    padding-left: 25px;
+    font-size: 25px;
+}
+
+.back_photo .layer img{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.back_photo .layer p{
+    padding-top: 30px;
+    padding-left: 25px;
+    font-size: 19px;
+}
+
+.picture{
+    width: 110px;
+    margin-left: 20px;
+}
+
+.menu{
+    text-align: center;
+}
+.menu ul{
+    display: inline-flex;
+    padding-top: 110px;
+}
+.single_menu{ 
+    padding-left: 5px;
+    
+}
+.single_menu1  li a{
+    background-color: rgb(121, 60, 60);
+     padding: 10px 10px;
+    color: rgba(216, 214, 210, 0.99);
+    font-size: 12px;
+    border-radius: 8px;
+}
+.single_menu li a{
+    background-color: rgba(40, 44, 45, 0.76);
+     padding: 10px 10px;
+    color: rgba(216, 214, 210, 0.99);
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+
+.single_menu li a:hover{
+    background-color: rgb(121, 60, 60);
+}
+.single_menu li a:focus{
+    color: rgb(121, 60, 60);
+}
+/* business part in css end */
+
+/* relationship part in css start */
+.relation{
+    height: 450px;
+}
+
+.img_back{
+    width: 550px;
+    background-color: rgb(121, 60, 60);
+    height: 230px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.img_back .cng{
+    width: 210px;
+    height: 230px;
+    padding-left: 10px;
+    border-radius: 5px;
+    position: absolute;
+    left: 10px;  
+}
+
+.img_back .ash{
+    background-color: rgba(216, 214, 210, 0.99);
+    width: 326px;
+    height: 230px;
+    position: absolute;
+    right: 4px;
+}
+
+.img_contain{
+   margin: 35px 20px;
+}
+
+.img_contain h3{
+    color: rgb(121, 60, 60);
+    font-size: 1.5rem;
+    font-family: "Candara", Sans-serif;
+}
+.img_contain p a{
+    color: #181a1b;
+    font-family: "Candara", Sans-serif;
+    font-size: 1.25rem;
+}
+/* relationship part in css end */
+
+/* achivment part in css start */
+.back_color{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(121, 60, 60);
+    font-family: "Candara", Sans-serif;
+}
+
+.padma{
+    background-image: url(../image/Padma_Bridge2-min.jpg);
+    height: 550px;
+    width: 33.33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    float: left;
+}
+
+.padma .head{
+    padding-top: 50px;
+    padding-right: 20px;  
+   }
+   
+ .padma .head h2{ 
+       background-color: rgb(121, 60, 60);
+       color: rgba(216, 214, 210, 0.99);
+       padding: 3px 80px;
+       font-size: 1.5rem;   
+}
+.padma_contain {
+    margin-top: 310px;
+    margin-left: 20px;
+    color: rgba(216, 214, 210, 0.99);
+    font-size: 1.3rem;
+}
+
+.padma_contain p a{
+    color: rgba(216, 214, 210, 0.99);
+    font-size: 1.6rem;
+}
+.padma_contain p a i{
+    color: brown;
+}
+.padma_contain .button:hover {
+    transform: scale(1.05);
+    transition: all linear .3s;
+}
+.firefighting{
+    background-image: url(../image/ARFF-Friretruck-min-1.png);
+    height: 550px;
+    width: 33.33%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    float: left;
+}
+
+.flyovers{
+    background-image: url(../image/Khilgaon-flyover-U-loop-min.jpg);
+    width: 33.33%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    float: left;
+}
+
+.fire {
+    margin-top: 395px;
+    font-size: 1.3rem;
+}
+
+.fly{
+    margin-top: 360px;
+    font-size: 1.3rem;
+}
+
+/* achivment part in css end */
+
+/* Career part in css strat */
+.career_pic{
+    background-image: url(../image/career-bg-min.jpg);
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5rem;
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.career_pic .head{
+    padding-top: 50px;
+    padding-right: 980px;
+    
+   }
+   
+ .career_pic .head h2{ 
+    background-color: rgb(121, 60, 60);
+    color: rgba(216, 214, 210, 0.99);
+    padding: 3px 80px;
+    font-size: 1.5rem;  
+}
+
+.box_apply{
+    background-color: rgb(121, 60, 60);
+    width: 470px;
+    height: 310px;
+    position: absolute;
+    top: 280px;
+    right: 160px;
+    padding-left: 3rem;
+    padding-top: 5rem;
+}
+.box_apply h3{
+    color: rgba(216, 214, 210, 0.99);
+    padding-bottom: 10px;
+}
+
+.box_apply a{
+    color: rgba(216, 214, 210, 0.99);
+    border: 1px solid rgba(216, 214, 210, 0.99);
+    padding: 8px 50px;
+    border-radius: 12px;
+    font-size: 1.25rem; 
+}
+
+.box_apply a:hover{
+   background-color: rgba(216, 214, 210, 0.99);
+   color: rgb(121, 60, 60);
+}
+
+/* Career part in css end */
+
+/* address part in css start */
+.address{
+    width: 100%;
+    height: 300px;
+    background-color: #dcdad7;
+}
+
+.link a{
+color: rgb(70, 76, 78);
+font-size: 1.25rem;
+text-align: center;
+padding-left: 20px;
+}
+.link a:hover{
+    color: rgb(121, 60, 60);
+}
+.add a{
+    color: rgb(70, 76, 78);
+    font-size: 1.15rem;
+    line-height: 40px;
+}
+.row1{
+    padding-top: 70px;
+}
+.fa-brands {
+   font-size: 25px;
+   line-height: 40px;
+}
+
+.fa-brands:hover{
+    color: rgb(121, 60, 60);
+}
+.add a:hover{
+    color: rgb(121, 60, 60);
+}
+/* address part in css end */
+
+/* footer part in css start */
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(145, 61, 64); 
+}
+
+.footer_contain p{
+    color: rgba(216, 214, 210, 0.99);
+    text-align: center;
+    line-height: 60px;
+    font-family: "Candara", Sans-serif;
+    font-size: 18px;
+}
+
+/* footer part in css end */
+
+
+
+/* about navana group part in css start */
+.about{
+    padding-top: 3rem;
+}
+
+.about_contain h1{
+    color: rgb(121, 60, 60);
+    margin-bottom: 30px;
+}
+
+.about_contain p{
+    color: rgb(84, 90, 94);
+    font-size: 1.15rem;
+    text-align: justify;
+    line-height: 30px;
+}
+.abt{
+   text-align: center;
+   padding-top: 1rem;
+}
+.abt h1{
+    color: rgb(121, 60, 60);
+}
+
+.abt p{
+    color: rgb(84, 90, 94);
+    font-size: 1.15rem;
+}
+/* about navana group part in css end */
+
+
+/* investor part css start */
+.invesment{
+    font-family: "Candara", Sans-serif;
+}
+.inv_head{
+    text-align: center;
+    margin-top: 2.2rem;
+    color: rgb(121, 60, 60);
+}
+
+.inv_img img{
+    width: 100%;
+    height: 500px;
+    margin-top: 6rem;
+}
+
+.inv_con {
+    margin-top: 15rem;
+    
+}
+.inv_con img{
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+.inv_con h4{
+    color: rgb(121, 60, 60);
+    padding-bottom: 20px;
+}
+
+.inv_con p{
+    color:  #181a1b;
+    font-size: 1.25rem;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+
+.inv_con a{
+   background-color:rgb(220, 218, 215);
+    color: rgb(105, 114, 119);
+    border-radius: 25px;
+    font-size: 1.25rem;
+    padding: 10px 10px;
+    
+}
+.inv_con a:hover{
+    color: rgb(77, 84, 87);
+    border: 1px solid rgb(121, 60, 60);
+    padding: 10px 10px;
+}
+
+.cng_img{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+/* investor part css end */
+
+/* career part in css strat */
+.career{
+    font-family: "Candara", Sans-serif;
+}
+.car_con{
+    background-color: rgb(59, 64, 67);
+    width: 30%;
+    height: 850px;
+    float: left;
+}
+
+.car_con p{
+    color: rgb(220, 218, 215);
+    font-size: 3rem;
+    padding-top: 7rem;
+    text-align: center;
+    
+}
+
+.car_form{
+    background-image: url(../image/Hero-bg.jpg);
+    width: 70%;
+    height: 850px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.care{
+    margin-top: 7rem;
+    margin-left: 9rem;
+}
+
+.name{
+    padding: 9px 400px 9px 10px;
+}
+.name1{
+    padding: 10px 395px 10px 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(211, 208, 205, 0.25);
+    background-color: rgba(211, 208, 205, 0.13);
+    color: #F2F2F2;
+}
+
+.name2{
+    padding: 7px 315px 7px 10px;
+    background-color: rgba(211, 208, 205, 0.13);
+    color: rgb(220, 218, 215);
+}
+
+.car_form .care input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(211, 208, 205, 0.25);
+    background-color: rgba(211, 208, 205, 0.13);
+}
+.car_form .care input::placeholder{
+    color: #F2F2F2;
+}
+
+.car_form .care label{
+    color: rgb(220, 218, 215);
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.name3{
+    padding: 6px 282px 6px 282px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(211, 208, 205, 0.25);
+    background-color: rgb(145, 61, 64);
+    color: rgb(220, 218, 215);
+    border-radius: 10px;
+    font-size: 18px;
+}
+.name3:hover{
+   background-color: rgb(220, 218, 215);
+   color: rgb(145, 61, 64);
+}
+
+/* career part in css end */
+
+/* contact part in css start */
+.contact{
+    background-image: url(../image/download.jpg);
+    min-height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    font-family: "Candara", Sans-serif;
+}
+.contact_header{
+    padding-top: 6rem;
+}
+
+.contact_header h1 {
+    float: left;
+    color: rgb(211, 208, 205);
+    border-top:1px solid rgb(211, 208, 205);
+    border-bottom:1px solid rgb(211, 208, 205);
+    border-right:1px solid rgb(211, 208, 205);
+    padding: 40px 80px;
+    box-shadow: 2px 1px 10px 0px rgba(165,41,41,1);
+    font-size: 50px;
+}
+
+.contact_header .con_add{
+    float: left;
+    padding-left: 30px;
+    font-size: 1.30rem;
+    line-height: 45px;
+    color: rgb(211, 208, 205); 
+}
+
+
+.contact_header .con_add a{
+    color: rgb(211, 208, 205); 
+}
+
+.contact_header .con_add i:hover{
+    color: brown;
+}
+
+.contact_form {
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+.con{
+    padding: 10px 460px 10px 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(211, 208, 205, 0.25);
+    background-color: rgba(211, 208, 205, 0.13);
+    color: #F2F2F2;
+}
+
+.con2{
+    padding: 10px 440px 10px 10px; 
+}
+
+.contact_form label{
+    color: rgb(220, 218, 215);
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.con3{
+    padding: 10px 80px 10px 80px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(211, 208, 205, 0.25);
+    background-color:  rgba(211, 208, 205, 0.13);
+    color: rgb(220, 218, 215);
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 2rem;
+    margin-left: 65%;
+    
+}
+
+.con3:hover{
+    background-color: rgba(211, 208, 205, 0.25);
+    color: rgb(220, 218, 215);
+ }
+.map h2{
+    padding-left: 120px;
+    color: rgb(211, 208, 205);
+    font-size: 40px;
+}
+.map h2:hover{
+    color: white;
+}
+.map{
+   margin-top: 270px;
+}
+/* contact part in css end */
+
+.dir_header h1{
+    color: rgba(165,41,41,1);
+    border-top:1px solid rgb(211, 208, 205);
+    border-bottom:1px solid rgb(211, 208, 205);
+    border-right:1px solid rgb(211, 208, 205);
+    padding: 40px 80px;
+    box-shadow: 2px 1px 10px 0px  rgb(211, 208, 205);
+    font-size: 50px;
+}
+.dir_header img{
+   margin-left: 80px;
+}
+.dir_header h2{
+    color: #181a1b;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.dir_header h4{
+    color: #181a1b;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.dir_header p{
+    color: rgb(105, 114, 119);
+    padding-left: 80px;
+    padding-top: 10px;
+    font-size: 1.25rem;
+    text-align: justify;
+}
+
+.dir_img img{
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+.saiful{
+    margin-top: 6rem;
+    margin-left: 20px;
+}
